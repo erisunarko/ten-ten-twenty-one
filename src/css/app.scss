@@ -1,0 +1,37 @@
+// app global css in SCSS form
+.fw600-fff {
+    font-weight: 600;
+    color: #FFF;
+}
+
+.txt18-000 {
+    font-size: 18px;
+    color: #000;
+}
+
+.txt20-000 {
+    font-size: 20px;
+    color: #000;
+}
+
+.txt24-000 {
+    font-size: 24px;
+    color: #000;
+}
+
+.mycard:nth-child(even) {
+    background: #EEE;
+}
+
+.login-container {
+    min-height: 100vh
+}
+
+.login-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    margin: -100px 0 0 -100px;
+}
